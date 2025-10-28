@@ -1,13 +1,14 @@
 import sqlite3, requests, matplotlib.pyplot as plt, schedule
 from datetime import datetime, date, time, timedelta
+from dotenv import load_dotenv
 import io, os, sys
 import time
 
-EXCHANGE_COURSE_API = ""
+EXCHANGE_COURSE_API = "https://currencyapi.net/api/v1/rates?base=USD&output=json&key=7c38f25db9620cc74a31ae5cb774d11b1b43"
 DB_PATH = "ExchangeCourses.db"
 TOKEN = ""
 GetDataForDays = 30
-users = []
+users = [1683086489]
 
 def getCurrentExchangeCourses():
     response = requests.get(EXCHANGE_COURSE_API)
@@ -107,12 +108,10 @@ def sendPhoto(bytes_io, chatId, caption):
     return r.json()
 
 if __name__ == "__main__":
+    load_dotenv()
     print("Введите api для получения курсов валют: ")
     EXCHANGE_COURSE_API = input()
-    print("Введите token бота: ")
-    TOKEN = input()
-    print("Введите chatId всех пользователей через пробел, по окнчании ввода нажмите enter: ")
-    users = input().split(" ")
+    TOKEN = os.getenv("BOT_TOKEN")
 
     conn = init_db(DB_PATH)
     conn.close()

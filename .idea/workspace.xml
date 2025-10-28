@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fbfb521-285c-42cd-ad06-da88febcb4b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ExchangeCourseBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getPlot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="3fbfb521-285c-42cd-ad06-da88febcb4b9" name="Changes" comment=" Реализованы парсинг информации с API курсов валют, сохранение их в базу данных, построение и отправка графиков пользователям.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "VladimirDultsev"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VladimirDultsev/ExchangeCourseBot.git",
+    "accountId": "0636e773-9b59-412f-b2e6-1381c05c6e0a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -74,12 +81,25 @@
       <updated>1761122850353</updated>
       <workItem from="1761122851309" duration="3267000" />
       <workItem from="1761415558876" duration="2907000" />
-      <workItem from="1761560392247" duration="13998000" />
+      <workItem from="1761560392247" duration="14945000" />
     </task>
+    <task id="LOCAL-00001" summary=" Реализованы парсинг информации с API курсов валют, сохранение их в базу данных, построение и отправка графиков пользователям.">
+      <option name="closed" value="true" />
+      <created>1761679366081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761679366081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Реализованы парсинг информации с API курсов валют, сохранение их в базу данных, построение и отправка графиков пользователям." />
+    <option name="LAST_COMMIT_MESSAGE" value=" Реализованы парсинг информации с API курсов валют, сохранение их в базу данных, построение и отправка графиков пользователям." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ExchangeCourseBot$main.coverage" NAME="main Coverage Results" MODIFIED="1761661125817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
